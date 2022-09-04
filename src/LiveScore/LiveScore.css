@@ -1,0 +1,68 @@
+.live-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 300px;
+  padding: 15px;
+  background: #fff;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.match-container {
+  text-align: center;
+}
+
+.live-container,
+.match-container {
+  width: 100%;
+}
+
+.teams-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.result {
+  padding-left: 10px;
+  letter-spacing: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.team-box {
+  width: 40%;
+}
+
+.league-logo {
+  width: 45px;
+}
+
+.league-name {
+  font-size: 16px;
+}
+
+.team-logo {
+  width: 80px;
+}
+
+.team-name {
+  padding-top: 5px;
+}
+
+.round {
+  font-size: 35px;
+  margin: 0 10px;
+  cursor: pointer;
+  padding: 1px 0px;
+}
+
+.hide-match {
+  visibility: hidden;
+}
